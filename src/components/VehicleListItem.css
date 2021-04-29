@@ -1,0 +1,55 @@
+.vehicleList-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+.vehicleList-item:active {
+    background-color: lightgray;
+}
+.vehicleList-item:hover {
+    background-color: lightgray;
+}
+
+.vehicleList-item.item img {
+    width: 20%;
+    height: 20%;
+}
+.main-container {
+    padding: 30px;
+    border: 1px solid lightgray;
+}
+
+@media screen and (max-width: 480px) {
+    .content-container {
+        margin-top: 3%;
+    }
+}
+.label {
+    font-weight: bold;
+}
+.img-car {
+    width: 30%;
+    height: 30%;
+}
+.btn {
+    margin-top: 4%;
+    padding: 12px;
+    display: block;
+    width: 22%;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: lightgray;
+}
+@media screen and (max-width: 768px) {
+     .btn {
+         font-size: 18px;
+         padding: 8px;
+         width: 25%;
+     }   
+}
